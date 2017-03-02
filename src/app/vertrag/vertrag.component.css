@@ -1,0 +1,48 @@
+/* nav menu */
+.navbar {
+    min-height: 100px !important;
+}
+
+.navbar-default {
+    background-image: none;
+    background-color: #e2071d;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 35px;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #B8E1F6;
+}
+
+.navbar-default .navbar-nav>li.link-active a,
+.navbar-default .navbar-nav>li.link-active a:hover,
+.navbar-default .navbar-nav>li.link-active a:focus {
+    color: #B8E1F6;
+}
+
+.navbar-brand {
+    padding: 10px 10px;
+    margin-left: -5px !important;
+    margin-top: 2px !important;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 20px 0 0 0;
+}
+
+.navbar-toggle {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+li .glyphicon {
+    margin-right: 10px;
+}
