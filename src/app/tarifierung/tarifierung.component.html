@@ -1,18 +1,16 @@
-<h3>Tarifierung</h3>
+<h3>Tarifierung: {{tarif}} </h3> 
 <div class="row">
     <div class="col-md-4">
-        Modus:
-        <div class="btn-group btn-group-justified">
-            <label class="btn btn-default" >
-                <input (click)="onClickBerechnung()" type="radio" name="modus" id="modusRechnung"    style="visibility:hidden; width:0px;"  /> Rechnen
-            </label>
-            <label class="btn btn-default" >
-                <input type="radio" name="modus" id="modusAngebot"    style="visibility:hidden; width:0px;"  /> Angebot
-            </label>
-            <label class="btn btn-default" >
-                <input type="radio" name="modus" id="modusAntrag"    style="visibility:hidden; width:0px;" /> Antrag
-            </label>
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+            <div class="btn-group" role="group">
+                <button (click)="onClickBerechnung()"type="button" class="btn btn-default">Berechnung</button>
+            </div>
+            <div class="btn-group" role="group">
+                <button (click)="onClickAngebot()"type="button" class="btn btn-default">Angebot</button>
+            </div>
+            <div class="btn-group" role="group">
+                <button (click)="onClickAntrag()"ype="button" class="btn btn-default">Antrag</button>
+            </div>
         </div>
     </div>
 </div>
-<hr />

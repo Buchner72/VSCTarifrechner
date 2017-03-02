@@ -15,4 +15,8 @@ export class VnComponent  {
     this.ListVN.push(VN1);
     console.log(this.ListVN);
   }
+  onClickBerechnung() { 
+   
+    console.log('KlickBerechnungVN!')
+  } 
 }

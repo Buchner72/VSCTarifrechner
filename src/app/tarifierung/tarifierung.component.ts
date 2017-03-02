@@ -6,11 +6,22 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class TarifierungComponent implements OnInit {
-   onClickBerechnung() {
-    console.log('Klick!')
+  tarif: string ='Angebot';
+
+  onClickBerechnung() { 
+   this.tarif='Berechnung';  
+  } 
+
+  onClickAngebot() {
+   this.tarif='Angebot';
   }
 
-  constructor() { }
+  onClickAntrag() {
+     this.tarif='Antrag';
+  }
+  constructor() { 
+      this.tarif='Bitte wählen!!';
+  }
 
   ngOnInit() {
   }
