@@ -13,10 +13,6 @@ export class VnComponent  {
     VN1.Vorname = "Franz";
     VN1.Nachname = "Buchner";
     this.ListVN.push(VN1);
-    console.log(this.ListVN);
+    console.log(this.ListVN);   
   }
-  onClickBerechnung() { 
-   
-    console.log('KlickBerechnungVN!')
-  } 
 }
