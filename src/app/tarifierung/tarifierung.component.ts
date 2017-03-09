@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TarifierungComponent implements OnInit {
   tarif: string ='Angebot';
+  aString: string = 'Ich bin ein string';
 
   onClickBerechnung() { 
    this.tarif='Berechnung';  

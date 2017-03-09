@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 import { VN } from './vnData';
 
 @Component({
@@ -6,8 +6,12 @@ import { VN } from './vnData';
   templateUrl: './vn.component.html',
   styles: []
 })
+
+
 export class VnComponent  {
+  @Input('nameTarif') tarif: string;
   ListVN: Array<VN> = [];
+
   createVNList() {
     let VN1 = new VN(); 
     VN1.Vorname = "Franz";
